@@ -43,3 +43,24 @@ main{
     width: 269px;
     height: 471px;
 }
+#icones{
+    text-align: right;
+    display: grid;
+    
+
+}
+
+#icones img{
+   width: 50px;
+   margin: 10px;
+   border-radius: 50%;
+   box-sizing: border-box;
+
+}
+
+#icones img:hover{
+  transition: transform .7s;  
+    transform: scale(1.20);
+    box-shadow : 5px 5px 10px rgba(0, 0, 0, 0.692)
+ 
+}
