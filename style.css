@@ -29,10 +29,17 @@ main{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 50px;
 
-    height: 627px;
-    width: 311px;
-    
-    
-    
+    height: 625px;
+    width: 308px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.76) ;
+}
+
+#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
 }
